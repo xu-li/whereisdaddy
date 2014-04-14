@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>爸爸去哪儿之上海篇</title>
+<meta name="keywords" content="爸爸去哪儿,上海,地图">
+<meta name="description" content="爸爸去哪儿的一个小游戏，玩家通过识别街景来判断所处的位置。">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure-min.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div id="content">
+        <div id="pano"></div>
+
+        <div id="right" class="pure-u-1-4">
+            <div id="map"></div>
+
+            <div>
+                <p id="result"></p>
+                <button id="btn-guess" class="btn-guess pure-button pure-button-disabled pure-u-1">查看答案</button>
+            </div>
+
+            <div id="footer">
+                <a href="javascript:;"><i class="fa fa-weibo"></i></a>
+                <a href="javascript:;"><i class="fa fa-renren"></i></a>
+                <a href="javascript:;"><i class="fa fa-question"></i></a>
+            </div>
+        </div>
+
+        <div id="dialog">
+            <div id="help">
+                <ol>
+                    <li>猜猜左边的街景是在上海哪里</li>
+                    <li>在右边的地图上标注</li>
+                    <li>点击“查看结果”, 看看猜测是否准确</li>
+                </ol>
+                <div><small>Created by xu.li</small></div>
+                <div><small>Inspired by <a href="http://geoguessr.com" target="_blank">geoguessr.com</a></small></div>
+            </div>
+        </div>
+    </div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+<script src="http://map.qq.com/api/js?v=2.exp&key=PZVBZ-R53AJ-OUEF4-FK2R2-VUYJ3-I5BW5&libraries=geometry"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
